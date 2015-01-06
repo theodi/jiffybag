@@ -19,6 +19,10 @@ describe JiffyBag do
       JiffyBag.configure @var_list
     end
     
+    it "should provide a list of available variables" do
+      JiffyBag.configure @var_list
+      expect(JiffyBag.variables).to eql @var_list
+    end
   end
   
 end
