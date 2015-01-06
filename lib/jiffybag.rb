@@ -4,7 +4,12 @@ require "jiffybag/exceptions"
 module JiffyBag
   
   def self.configure(variables)
-    @@variables = variables
+    @@variables ||= []
+    @@variables.concat variables
+  end
+  
+  def self.reset!
+    @@variables = []
   end
   
   def self.variables
