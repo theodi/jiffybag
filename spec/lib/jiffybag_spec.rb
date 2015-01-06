@@ -30,6 +30,10 @@ describe JiffyBag do
       expect(JiffyBag.variables).to eql ["VARIABLE_ONE", "VARIABLE_TWO"]
     end
     
+    it "should be throw an exception if any specified vars are missing from ENV" do      
+      expect { JiffyBag.configure ["VARIABLE_THREE", "VARIABLE_FOUR"] }.to raise_error JiffyBag::MissingVariable, "VARIABLE_THREE, VARIABLE_FOUR"
+    end
+      
   end
 
   context "with environment variables set" do
