@@ -1,5 +1,8 @@
 require "jiffybag/version"
 
 module JiffyBag
-  # Your code goes here...
+  
+  def self.configure(variables)
+    @@variables = variables
+  end
 end
