@@ -23,6 +23,15 @@ describe JiffyBag do
       JiffyBag.configure @var_list
       expect(JiffyBag.variables).to eql @var_list
     end
+
+    it "should provide access to environment variables" do
+      expect(JiffyBag["VARIABLE_ONE"]).to eql "foo"
+    end
+    
+    it "should raise an exeception if an unknown variable is accessed" do
+      expect { JiffyBag["VARIABLE_THREE"] }.to raise_error JiffyBag::UnknownVariable, "VARIABLE_THREE"
+    end
+
   end
   
 end
