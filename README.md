@@ -2,7 +2,7 @@
 [![Dependency Status](http://img.shields.io/gemnasium/theodi/jiffybag.svg)](https://gemnasium.com/theodi/jiffybag)
 [![Coverage Status](http://img.shields.io/coveralls/theodi/jiffybag.svg)](https://coveralls.io/r/theodi/jiffybag)
 [![Code Climate](http://img.shields.io/codeclimate/github/theodi/jiffybag.svg)](https://codeclimate.com/github/theodi/jiffybag)
-[![Gem Version](http://img.shields.io/gem/v/JiffyBag.svg)](https://rubygems.org/gems/JiffyBag)
+[![Gem Version](http://img.shields.io/gem/v/jiffybag.svg)](https://rubygems.org/gems/jiffybag)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://theodi.mit-license.org)
 [![Badges](http://img.shields.io/:badges-7/7-ff6799.svg)](https://github.com/badges/badgerbadgerbadger)
 
