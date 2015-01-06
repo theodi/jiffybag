@@ -1,11 +1,14 @@
 require "jiffybag/version"
 require "jiffybag/exceptions"
 
+require "dotenv"
+
 module JiffyBag
   
-  def self.configure(variables)
+  def self.configure(variables, dotenv_filenames = [])
     @@variables ||= []
     @@variables.concat variables
+    Dotenv.load *dotenv_filenames
     check_variables
   end
   
