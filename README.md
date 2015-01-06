@@ -1,4 +1,4 @@
-# Jiffybag
+# JiffyBag
 
 TODO: Write a gem description
 

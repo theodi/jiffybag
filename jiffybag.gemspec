@@ -4,8 +4,8 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'jiffybag/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "jiffybag"
-  spec.version       = Jiffybag::VERSION
+  spec.name          = "JiffyBag"
+  spec.version       = JiffyBag::VERSION
   spec.authors       = ["James Smith"]
   spec.email         = ["james@floppy.org.uk"]
   spec.summary       = %q{TODO: Write a short summary. Required.}

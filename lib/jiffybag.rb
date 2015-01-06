@@ -1,5 +1,5 @@
 require "jiffybag/version"
 
-module Jiffybag
+module JiffyBag
   # Your code goes here...
 end
