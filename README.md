@@ -1,3 +1,11 @@
+[![Build Status](http://img.shields.io/travis/theodi/jiffybag.svg)](https://travis-ci.org/theodi/jiffybag)
+[![Dependency Status](http://img.shields.io/gemnasium/theodi/jiffybag.svg)](https://gemnasium.com/theodi/jiffybag)
+[![Coverage Status](http://img.shields.io/coveralls/theodi/jiffybag.svg)](https://coveralls.io/r/theodi/jiffybag)
+[![Code Climate](http://img.shields.io/codeclimate/github/theodi/jiffybag.svg)](https://codeclimate.com/github/theodi/jiffybag)
+[![Gem Version](http://img.shields.io/gem/v/JiffyBag.svg)](https://rubygems.org/gems/JiffyBag)
+[![License](http://img.shields.io/:license-mit-blue.svg)](http://theodi.mit-license.org)
+[![Badges](http://img.shields.io/:badges-7/7-ff6799.svg)](https://github.com/badges/badgerbadgerbadger)
+
 # JiffyBag
 
 TODO: Write a gem description
