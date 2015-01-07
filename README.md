@@ -21,6 +21,8 @@ aren't really any checks on what's there, or that what you're asking for is vali
 It also allows you to get a list of variables that are loaded from `ENV`, which is
 very useful for things like hiding sensitive data in VCR cassettes reliably.
 
+Called JiffyBag because it's a safer `ENV`elope. Ho ho.
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -80,6 +82,10 @@ JiffyBag.configure ["VARIABLE_TWO"]
 JiffyBag.variables
 #=> ["VARIABLE_ONE", "VARIABLE_TWO"]
 ```
+
+Of course, nothing stops you accessing `ENV` directly. In fact, you might want to
+still do that for things like variables used only in test mode, so that JiffyBag
+doesn't raise errors in production.
 
 ## Contributing
 
